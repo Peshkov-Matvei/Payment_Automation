@@ -1,0 +1,8 @@
+dateparser
+pyspellchecker
+pymorphy2
+pandas
+torch
+transformers
+tqdm
+numpy
