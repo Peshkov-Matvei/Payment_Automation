@@ -100,8 +100,6 @@ class BertClassifier:
         self.model.eval()
 
         encodings = self.tokenizer(texts, padding=True, truncation=True, max_length=self.max_len, return_tensors="pt")
-
-        # Отправляем данные на устройство
         encodings = {key: value.to(self.device) for key, value in encodings.items()}
 
         with torch.no_grad():
