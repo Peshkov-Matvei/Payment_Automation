@@ -14,12 +14,10 @@ class CustomDataset(torch.utils.data.Dataset):
         elif self.phase == 'test':
             self.oid = [oid for oid in df['oid']]
 
-        # Токенизация текстов
         self.texts = [tokenizer(text, padding='max_length', max_length=512, truncation=True, return_tensors="pt")
                       for text in df['text']]
 
     def __len__(self):
-        # Количество текстов в выборке
         return len(self.texts)
 
     def get_batch_labels(self, idx):
