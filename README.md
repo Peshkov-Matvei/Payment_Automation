@@ -84,4 +84,4 @@ pip install -r requirements.txt
 python main.py
 ```
 ## Автор
-Пешков Матвей
+Пешков Матвей (https://github.com/Peshkov-Matvei).
