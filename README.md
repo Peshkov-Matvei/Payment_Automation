@@ -77,8 +77,8 @@ bert_classifier/
 Сначала установите необходимые библиотеки:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Обучение модели
 Запустите обучение модели:
 ```bash
-python main.py
+python main.py```
