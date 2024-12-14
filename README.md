@@ -50,7 +50,7 @@ bert_classifier/
 │   └── payments_main.tsv  # Основной набор данных
 ├── models/
 │   ├── final_model.pt     # Обученная модель
-│   └── README.md          # Текущее описание проекта
+├── README.md          # Текущее описание проекта
 ├── main.py          # Скрипт для запуска предсказаний
 └── requirements.txt # Зависимости проекта
 ```
