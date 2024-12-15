@@ -22,7 +22,7 @@
 
 1. **Клонирование репозитория:**
     ```bash
-    git clone [<URL репозитория>](https://github.com/Peshkov-Matvei/Payment_Automation)
+    git clone (https://github.com/Peshkov-Matvei/Payment_Automation)
     cd bert_classifier
     ```
 
